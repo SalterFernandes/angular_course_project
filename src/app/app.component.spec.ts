@@ -24,4 +24,6 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('course_project app is running!');
   });
+
+
 });
